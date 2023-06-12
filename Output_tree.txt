@@ -1,0 +1,39 @@
+Train size = 50.0 : 
+   max_accuracy = 95.41 
+   min_accuracy = 91.28 
+   average_accuracy = 93.76 
+   max nodes = 45 
+   min nodes = 31 
+   average nodes = 35.0 
+ 
+Train size = 60.0 : 
+   max_accuracy = 94.25 
+   min_accuracy = 92.53 
+   average_accuracy = 93.22 
+   max nodes = 53 
+   min nodes = 37 
+   average nodes = 42.2 
+ 
+Train size = 70.0 : 
+   max_accuracy = 93.89 
+   min_accuracy = 92.37 
+   average_accuracy = 93.28 
+   max nodes = 53 
+   min nodes = 41 
+   average nodes = 47.4 
+ 
+Train size = 80.0 : 
+   max_accuracy = 95.4 
+   min_accuracy = 89.66 
+   average_accuracy = 92.18 
+   max nodes = 59 
+   min nodes = 47 
+   average nodes = 52.2 
+ 
+From the accuracy graph: 
+When the amount of training data is small, an ML model does not generalise well. This is usually because the model is overfitting, 
+In general, model overfitting is reduced as the training dataset size increases, More data will almost always increase the accuracy of a model, 
+However, that does not necessarily mean that spending resources to increase the training dataset size is the best way to affect the model’s predictive performance. 
+ 
+From the graph of average nodes of tree size: 
+Decision trees are very interpretable – as long as they are short. The number of terminal nodes increases quickly 

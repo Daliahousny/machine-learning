@@ -1,0 +1,13 @@
+K = 1 ------> accuracy = 97.42710120068611,  Correct classified instances = 3408, Total instances = 3498 
+K = 2 ------> accuracy = 97.42710120068611,  Correct classified instances = 3408, Total instances = 3498 
+K = 3 ------> accuracy = 97.45568896512292,  Correct classified instances = 3409, Total instances = 3498 
+K = 4 ------> accuracy = 97.68439108061749,  Correct classified instances = 3417, Total instances = 3498 
+K = 5 ------> accuracy = 97.65580331618068,  Correct classified instances = 3416, Total instances = 3498 
+K = 6 ------> accuracy = 97.65580331618068,  Correct classified instances = 3416, Total instances = 3498 
+K = 7 ------> accuracy = 97.39851343624929,  Correct classified instances = 3407, Total instances = 3498 
+K = 8 ------> accuracy = 97.59862778730704,  Correct classified instances = 3414, Total instances = 3498 
+K = 9 ------> accuracy = 97.284162378502,  Correct classified instances = 3403, Total instances = 3498 
+As K increases, the KNN fits a smoother curve to the data. This is because a higher value of K reduces the edginess by taking more data 
+into account, thus reducing the overall complexity and flexibility of the model, increasing the value of K improves the score to 
+a certain point, after which it again starts dropping. 
+In our example, the model yields the best results at K=4.
